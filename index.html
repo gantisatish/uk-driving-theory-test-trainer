@@ -79,6 +79,10 @@ main{padding-top:24px;}
 .notes-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
 .notes-list li{padding-left:18px;position:relative;line-height:1.55;}
 .notes-list li::before{content:"";position:absolute;left:0;top:.55em;width:7px;height:7px;border-radius:50%;background:var(--green);}
+.links-head{margin-top:20px;padding-top:16px;border-top:1px solid var(--border);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--ink-soft);}
+.links-list{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-direction:column;gap:8px;}
+.links-list a{color:var(--blue);font-size:.92rem;font-weight:600;text-decoration:none;}
+.links-list a:hover{text-decoration:underline;}
 .topic-detail-head{display:flex;justify-content:space-between;align-items:flex-start;gap:14px;margin-bottom:10px;}
 .back-link{background:none;border:none;color:var(--blue);font-weight:600;font-size:.88rem;cursor:pointer;padding:0;margin-bottom:14px;}
 .q-card{display:flex;flex-direction:column;gap:14px;}
@@ -149,7 +153,19 @@ notes:[
 "Before you move off, use the Mirror – Signal – Manoeuvre routine every time: check your mirrors, signal your intention, then check your blind spots over your shoulder before you actually move.",
 "Mirrors don't show everything — a motorcyclist or cyclist can sit in a blind spot for several seconds, so a head check matters as much as the mirror check.",
 "Fatigue slows your reactions as much as a couple of alcoholic drinks. On a long journey, plan a break of at least 15 minutes every two hours.",
-"Anything that takes your eyes, hands or mind off the road — a phone, food, a satnav you're programming on the move — is a distraction. Set the satnav before you set off."
+"Anything that takes your eyes, hands or mind off the road — a phone, food, a satnav you're programming on the move — is a distraction. Set the satnav before you set off.",
+"Eyesight standard: you must be able to read a number plate from 20 metres away, and wear glasses or contact lenses every time you drive if you need them to meet this standard.",
+"Dazzle: in low winter sun or facing oncoming full beam at night, slow down, increase your distance, and avoid staring directly at the glare — use a visor or sunglasses in daylight.",
+"Scan near, middle-distance and far ahead, and check to the sides — fixing your eyes on one point (tunnel vision) makes it easy to miss a hazard developing elsewhere.",
+"It's illegal to use a handheld phone while driving, even stationary in traffic with the engine running. It's only lawful when safely parked with the engine off, or in a genuine emergency when it's unsafe to stop.",
+"Some prescription and over-the-counter medicines cause drowsiness and can impair your driving as much as alcohol — check the label or ask a pharmacist before you drive.",
+"Loud music can mask sirens, horns and level crossing warnings; strong emotions such as anger or stress can narrow your concentration just like fatigue.",
+"Wide-angle (convex) mirrors widen your view but make following vehicles look smaller and further away than they really are — don't rely on them alone for a lane change."
+],
+links:[
+{label:"Highway Code: General rules for all drivers and riders (103–158)",url:"https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"},
+{label:"Highway Code: Rules for drivers and motorcyclists (89–102)",url:"https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102"},
+{label:"GOV.UK: Driving eyesight rules",url:"https://www.gov.uk/driving-eyesight-rules"}
 ],
 questions:[
 {q:"Just before you move off from the side of the road, what should you do?",options:["Only check the exterior mirrors","Signal first, then check your mirrors","Use mirrors, signal, then check your blind spots over your shoulder","Rely on other drivers to give way"],correct:2,explain:"Mirror – Signal – Manoeuvre, finished with a shoulder check, is the safe routine every time you move off."},
@@ -196,9 +212,19 @@ questions:[
 {id:"attitude",name:"Attitude",
 notes:[
 "Keep a safe following distance and don't react to tailgaters by braking sharply or speeding up — ease back and let them go around when it's safe.",
-"Flashing your headlights means \"I am here\", nothing more. Never flash to wave someone out or to claim priority.",
+"Flashing your headlights means \"I am here\", nothing more. Never flash to wave someone out or claim priority.",
 "The horn warns others of your presence; it isn't a way to hurry someone along. Don't sound it at a stationary vehicle except to warn of danger.",
-"Patience with learners, cyclists and slower vehicles is part of safe driving — undertaking or tailgating out of frustration raises the risk for everyone."
+"Patience with learners, cyclists and slower vehicles is part of safe driving — undertaking or tailgating out of frustration raises the risk for everyone.",
+"The horn must not be used in a built-up area between 11.30pm and 7am, except to warn another road user of danger.",
+"Dip your headlights for oncoming traffic at night in good time — never retaliate against a dazzling driver by switching to full beam yourself.",
+"Merge in turn when lanes narrow at roadworks, give way to a bus signalling to pull away from a stop where it's safe, and be ready to give way at passing places on narrow roads.",
+"If another driver's dangerous driving frightens you, stay calm, don't retaliate, and don't chase or confront them. If they stop and you feel threatened, stay in your locked car and call the police.",
+"Never let impatience push you into overtaking where you can't see clearly ahead, such as approaching a bend or the brow of a hill.",
+"Driving in convoy with friends: always drive at your own safe speed, even if it means falling behind — never match an unsafe pace just to keep up.",
+"If you witness dangerous driving, note the vehicle's registration and the circumstances and report it to the police rather than taking matters into your own hands."
+],
+links:[
+{label:"Highway Code: Using the road (159–203)",url:"https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"}
 ],
 questions:[
 {q:"A driver behind you is following too closely. What should you do?",options:["Brake sharply to warn them","Speed up to get away","Increase your following distance from the vehicle ahead to give yourself more room","Flash your brake lights repeatedly"],correct:2,explain:"Opening up extra room ahead gives you more time to react if the tailgater causes a problem."},
@@ -246,7 +272,17 @@ notes:[
 "Tyres need at least 1.6mm of tread depth across the central three-quarters of the tyre, all the way round. Check pressures regularly, including the spare.",
 "Before a long trip, check the basics: fuel, lights, oil, water, electrics and tyres (\"FLOWER\" is a common memory aid).",
 "Excessive exhaust smoke, worn brakes or a dashboard warning light should all be checked before you carry on driving.",
-"A head restraint adjusted close to your head and level with its top reduces the risk of whiplash injury in a collision."
+"A head restraint adjusted close to your head and level with its top reduces the risk of whiplash injury in a collision.",
+"Use a screenwash additive in the washer reservoir over winter so it doesn't freeze; working washers and wipers are both a legal and an MOT requirement.",
+"A soft or sinking brake pedal usually means low brake fluid or air in the system; a grinding noise under braking often means the pads or discs are badly worn.",
+"A catalytic converter reduces harmful exhaust emissions — never put leaded fuel into a car fitted with one, as it will permanently damage the converter.",
+"Electric and hybrid vehicles are nearly silent at low speed. Their Acoustic Vehicle Alerting System (AVAS) helps pedestrians hear them, and the charging cable must be fully disconnected and stowed before you drive away.",
+"The driver is legally responsible for making sure passengers under 14 are wearing a suitable seatbelt or child restraint; some medical conditions carry a valid seatbelt exemption certificate.",
+"Mixing tyre types (radial and cross-ply, or different tread patterns) on the same axle can seriously affect handling and is best avoided.",
+"A power steering or ABS warning light that stays on means a fault has developed — have it checked promptly, and expect the steering to feel heavier if power assistance has failed."
+],
+links:[
+{label:"Highway Code: Annex 6 — Vehicle maintenance, safety and security",url:"https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security"}
 ],
 questions:[
 {q:"What is the minimum legal tread depth for a car tyre in the UK?",options:["1.0mm","1.6mm across the central three-quarters, all the way round","2.5mm","There is no legal minimum"],correct:1,explain:"This is the legal minimum across the central three-quarters of the tread width, around the entire circumference."},
@@ -292,10 +328,20 @@ questions:[
 ]},
 {id:"safety-margins",name:"Safety Margins",
 notes:[
-"The two-second rule is the minimum gap to the vehicle in front in good, dry conditions. Double it to at least four seconds in the wet, and leave far more — up to ten times the normal gap — on ice.",
-"Typical overall stopping distance at 30mph is about 23 metres (roughly 9m thinking plus 14m braking); at 70mph it's about 96 metres.",
+"The \"two-second rule\" is the minimum gap to the vehicle in front in good, dry conditions. Double it to at least four seconds in the wet, and leave far more — up to ten times the normal gap — on ice.",
+"Highway Code stopping distances (thinking + braking, in good dry conditions): 30mph ≈ 23m, 40mph ≈ 36m, 50mph ≈ 53m, 60mph ≈ 73m, 70mph ≈ 96m. Braking distance grows much faster than speed — doubling your speed much more than doubles your braking distance.",
 "Aquaplaning — losing grip when water builds up under the tyres — is more likely at higher speeds in heavy rain. Ease off the accelerator and avoid sharp braking or steering if it happens.",
-"Speed, road surface, tyre condition and your own reaction time all combine to determine how far your car actually travels before stopping."
+"Speed, road surface, tyre condition and your own reaction time all combine to determine how far your car actually travels before stopping.",
+"Mud, wet fallen leaves, loose chippings and road camber on a bend can all reduce available grip — slow down in good time rather than reacting once you're already on the slippery patch.",
+"Carrying extra passengers, a loaded boot, a roof box or a trailer all increase your stopping distance because of the extra weight.",
+"Complete most of your braking before a bend, not during it — braking while turning can upset the car's balance and reduce grip.",
+"If your car is fitted with ABS, apply firm, continuous pressure in an emergency stop rather than pumping the pedal — ABS lets you keep some steering control while braking hard.",
+"If you start to skid, ease off the accelerator or brake and steer gently in the direction you want the car to go — sudden braking or steering usually makes a skid worse.",
+"Leave extra distance behind large vehicles, since they block your view of hazards developing further ahead, and behind high-sided vehicles or two-wheeled road users in strong winds."
+],
+links:[
+{label:"Highway Code: General rules — stopping distances (103–158)",url:"https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"},
+{label:"Highway Code: Driving in adverse weather conditions (226–237)",url:"https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237"}
 ],
 questions:[
 {q:"In good, dry conditions, what's the minimum following gap you should leave?",options:["One second","Two seconds","Five seconds","There's no need for a gap below 40mph"],correct:1,explain:"The two-second rule gives a basic safety margin in normal dry conditions."},
@@ -344,7 +390,16 @@ notes:[
 "A hazard is anything that might require you to change speed, position or direction. Look well ahead to spot developing hazards early, not just react to immediate ones.",
 "Alcohol, drugs — including some prescription and over-the-counter medicines — and fatigue all slow your reactions and reduce your ability to judge hazards accurately.",
 "Your reaction time to a hazard is the \"thinking distance\" part of your overall stopping distance; it lengthens with tiredness, distraction or impairment.",
-"Classic sources of developing hazards include junctions, parked cars (a door opening, or a pedestrian stepping out between vehicles) and sudden changes in road layout."
+"Classic sources of developing hazards include junctions, parked cars (a door opening, or a pedestrian stepping out between vehicles) and sudden changes in road layout.",
+"The drink-drive limit is 80mg of alcohol per 100ml of blood in England, Wales and Northern Ireland, but only 50mg per 100ml in Scotland — and even small amounts can impair judgement below either limit.",
+"Fog counts as \"seriously reduced visibility\" once you can't see more than about 100 metres. Use fog lights in these conditions, but switch them off as soon as visibility improves — they can dazzle other drivers.",
+"Watch for hidden hazards at the brow of a hill, on blind bends, near bus stops and ice-cream vans, and around schools at drop-off and pick-up times.",
+"Scan near, middle-distance and far ahead, and to the sides — don't fixate on one point, or you risk missing a hazard developing elsewhere (tunnel vision).",
+"Yawning repeatedly, drifting in your lane, or not remembering the last few miles you've driven are all warning signs of fatigue — stop and rest rather than pushing on."
+],
+links:[
+{label:"Highway Code: Rules for drivers and motorcyclists — fitness to drive (89–102)",url:"https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102"},
+{label:"Highway Code: General rules for all drivers and riders (103–158)",url:"https://www.gov.uk/guidance/the-highway-code/general-rules-techniques-and-advice-for-all-drivers-and-riders-103-to-158"}
 ],
 questions:[
 {q:"What is a \"developing hazard\"?",options:["Something that has already caused a collision","A situation building up ahead that may require you to change speed, position or direction","Something that only applies to weather","Something that only applies on motorways"],correct:1,explain:"Spotting a hazard while it's still developing gives you far more time to respond safely."},
@@ -390,10 +445,19 @@ questions:[
 ]},
 {id:"vulnerable-road-users",name:"Vulnerable Road Users",
 notes:[
-"The Highway Code's hierarchy of road users places those most at risk — pedestrians, especially children, older and disabled people, then cyclists, then horse riders and motorcyclists — at the centre of everyone else's care.",
-"When overtaking a cyclist, leave at least 1.5 metres of space at speeds up to 30mph, more at higher speeds, and be ready to hold back if there isn't room.",
-"Once a pedestrian has stepped onto a zebra crossing, they have priority and traffic must stop. At a junction, a pedestrian who has started crossing has priority over a turning vehicle.",
-"Give horse riders and horse-drawn vehicles plenty of room and pass slowly — a startled horse is unpredictable and can be dangerous."
+"The Highway Code's hierarchy of road users places those most at risk — pedestrians, especially children, older people and disabled people, then cyclists, then horse riders and motorcyclists — at the centre of other road users' care and consideration.",
+"When overtaking a cyclist, leave at least 1.5 metres of space at speeds up to 30mph, and more room at higher speeds; be ready to slow down and wait behind them if there isn't room.",
+"Once a pedestrian has stepped onto a zebra crossing, they have priority and traffic must stop; at a junction, pedestrians who have started to cross have priority over a vehicle turning in or out of that junction.",
+"Give horse riders and horse-drawn vehicles plenty of room and pass slowly — a startled horse is unpredictable and can be dangerous.",
+"Toucan crossings let pedestrians and cyclists cross together under one signal; puffin crossings use sensors instead of a fixed flashing-amber phase; a zebra crossing with a central refuge island counts as two separate crossings.",
+"Advanced stop lines (cycle boxes) at traffic lights reserve space for cyclists ahead of other traffic — stop at the rear line and never pull into the box.",
+"A plain white cane usually means a pedestrian is blind or partially sighted; a white cane with red bands means they are deafblind — they may not see or hear you approaching.",
+"Mobility scooters come in two classes: Class 2 is pavement-only at around 4mph; Class 3 can use the road at up to 8mph and must show a flashing amber beacon when used on a dual carriageway.",
+"Motorcyclists may legally filter between queued or slow-moving traffic — always check mirrors and blind spots before changing lane or opening a door in traffic.",
+"Children playing near parks, schools or ice-cream vans can run into the road without warning, often without checking for traffic first."
+],
+links:[
+{label:"Highway Code: Road users requiring extra care (204–225)",url:"https://www.gov.uk/guidance/the-highway-code/road-users-requiring-extra-care-204-to-225"}
 ],
 questions:[
 {q:"Under the Highway Code's hierarchy of road users, who holds the greatest responsibility to reduce danger to others?",options:["Pedestrians","Cyclists","Those driving vehicles that can cause the greatest harm, such as cars and lorries","Horse riders"],correct:2,explain:"The more harm a vehicle could cause, the greater the responsibility on its driver to take care."},
@@ -439,10 +503,19 @@ questions:[
 ]},
 {id:"other-vehicles",name:"Other Types of Vehicle",
 notes:[
-"Long vehicles need much more room to turn, often swinging wide or taking an unexpected course just before a turn — don't try to fill a gap that opens up beside them.",
-"Trams run on fixed rails and can't steer around an obstruction; they can also be quieter than you expect, so look both ways even if the road looks clear.",
-"Give a bus priority to pull away from a stop where it's safe to do so, and watch for passengers who've just got off crossing the road.",
-"Motorcyclists can filter between queued traffic — check mirrors and blind spots before changing lanes or opening a door, especially in slow traffic."
+"Long vehicles need much more room to turn, often swinging wide or taking a different course just before a turn — don't try to fill a gap that opens up beside them.",
+"Trams run on fixed rails and can't steer around you; they also often operate in areas with multiple crossing points and can be quieter than you expect.",
+"Buses signalling to pull away from a stop should be given priority to do so where it's safe — look out for passengers who've just got off crossing the road.",
+"Motorcyclists can filter between queued traffic; check mirrors and blind spots before changing lanes or opening a door, especially in slow traffic.",
+"Goods vehicles over 7.5 tonnes are limited to 60mph on motorways and must not use the right-hand lane on a motorway with three or more lanes.",
+"Beacon colours tell you what you're dealing with: blue for police, fire and ambulance; green for a doctor responding to an emergency; amber for a slow-moving, wide or breakdown recovery vehicle.",
+"Bendy buses and articulated lorries can swing their rear or middle section into an adjoining lane on bends or at junctions — keep well back and give them room.",
+"Give high-sided vehicles extra room in strong winds, as a gust can push them (or you) suddenly sideways, especially near bridges or gaps in trees and buildings.",
+"A wide or long load is often escorted by a pilot vehicle with a flashing beacon — follow its signals rather than trying to overtake at the first small gap."
+],
+links:[
+{label:"Highway Code: Road users requiring extra care — other vehicles (204–225)",url:"https://www.gov.uk/guidance/the-highway-code/road-users-requiring-extra-care-204-to-225"},
+{label:"Highway Code: Road works, level crossings and tramways (288–307)",url:"https://www.gov.uk/guidance/the-highway-code/road-works-level-crossings-and-tramways-288-to-307"}
 ],
 questions:[
 {q:"A long lorry ahead signals left but moves out to the right first. What should you do?",options:["Overtake quickly on the left","Hold back and wait — it needs the extra room to turn","Sound your horn","Assume it made a mistake and overtake on the right"],correct:1,explain:"Long vehicles often swing out before turning in the opposite direction — give them space."},
@@ -488,10 +561,19 @@ questions:[
 ]},
 {id:"vehicle-handling",name:"Vehicle Handling",
 notes:[
-"In strong winds, high-sided vehicles, motorcyclists and cyclists are affected most — give them extra room, and be ready for sudden gusts yourself when emerging from behind bridges or lorries.",
-"If you skid, ease off the accelerator, avoid braking hard, and steer gently in the direction you want the front of the car to go.",
-"Coasting — travelling in neutral or with the clutch down — reduces your control over the vehicle and should be avoided, especially downhill.",
-"In snow or ice, pull away gently in a higher gear to reduce wheel spin, and use engine braking in a lower gear rather than heavy braking on long descents."
+"In strong winds, high-sided vehicles, motorcyclists and cyclists are affected the most — give them extra room and be ready for sudden gusts yourself, especially coming out from behind bridges or lorries.",
+"If you skid, ease off the accelerator and avoid braking hard; steer gently in the direction you want the front of the car to go.",
+"Coasting (travelling in neutral or with the clutch down) reduces your control over the vehicle and should be avoided, especially downhill.",
+"In snow or ice, pull away gently in a higher gear to reduce wheel spin, and use engine braking (lower gears) rather than heavy braking on long descents.",
+"In fog, switch off front and rear fog lights as soon as visibility improves — they can dazzle other drivers — and avoid full beam, which reflects back off the fog and reduces what you can see.",
+"If you're dazzled by oncoming headlights at night, slow down and avoid staring directly at the lights; always dip your own headlights in good time for oncoming traffic.",
+"Weight shifts towards the outside tyres on a bend, reducing their grip — brake before the bend, not while turning through it.",
+"Black ice is often invisible and is most likely on shaded stretches of road that stay below freezing after the rest of the road has thawed.",
+"In an electric or hybrid vehicle, lifting off the accelerator engages regenerative braking, slowing the car while feeding energy back into the battery.",
+"When reversing with a trailer attached, small, opposite steering movements are needed, since the trailer initially swings the opposite way to the steering input."
+],
+links:[
+{label:"Highway Code: Driving in adverse weather conditions (226–237)",url:"https://www.gov.uk/guidance/the-highway-code/driving-in-adverse-weather-conditions-226-to-237"}
 ],
 questions:[
 {q:"You start to skid on a wet road. What's the correct response?",options:["Brake hard immediately","Ease off the accelerator and steer gently in the direction you want to go","Accelerate to regain grip","Pull the handbrake"],correct:1,explain:"Sudden braking or steering can make a skid worse — gentle, controlled correction is safer."},
@@ -538,10 +620,19 @@ questions:[
 ]},
 {id:"motorway-rules",name:"Motorway Rules",
 notes:[
-"Unless signs say otherwise, the national speed limit for cars on motorways is 70mph. Keep to the left-hand lane unless overtaking, then move back over when it's clear.",
-"If you break down, try to reach the hard shoulder or an emergency area, put on hazard lights, and get everyone out on the side away from traffic if it's safe, behind a barrier if there is one.",
-"On smart motorways, a red X above a lane means it's closed — never drive in it. The hard shoulder may only be used as a running lane when signs permit.",
-"Learner drivers may now drive on motorways, but only when accompanied by an approved driving instructor in a car fitted with dual controls — never unaccompanied."
+"Unless signs say otherwise, the national speed limit for cars on motorways is 70mph; keep to the left-hand lane unless overtaking, then move back over when it's clear.",
+"If you break down, try to get to the hard shoulder or an emergency area, put on hazard lights, and get everyone out of the vehicle on the side away from traffic if it's safe to do so, behind a barrier if there is one.",
+"On smart motorways, red X signs over a lane mean it's closed — never drive in it; a solid white line marks the hard shoulder, which may be used as a running lane only when signs permit.",
+"Learner drivers may now drive on motorways, but only accompanied by an approved driving instructor in a car fitted with dual controls — never unaccompanied.",
+"Goods vehicles over 7.5 tonnes must stay out of the right-hand lane on a motorway with three or more lanes; cars towing a trailer or caravan are limited to 60mph.",
+"Never reverse, stop to swap drivers, or make a U-turn on a motorway. If you miss your exit, carry on to the next one.",
+"Emergency Refuge Areas (ERAs) on smart motorways without a hard shoulder give a safer place to stop; if you can't reach one, stay belted in with hazard lights on and call for help rather than stepping into a live lane.",
+"Countdown markers at the roadside show 3, 2 and then 1 stripe at 300, 200 and 100 yards before an exit.",
+"Amber reflective road studs mark the right-hand edge next to the central reservation; green studs mark a slip road boundary.",
+"Plan a rest break at least every two hours on a long journey, and check your fuel before setting off, since you can't simply pull over on a motorway to refuel."
+],
+links:[
+{label:"Highway Code: Motorways (253–273)",url:"https://www.gov.uk/guidance/the-highway-code/motorways-253-to-273"}
 ],
 questions:[
 {q:"What's the national speed limit for a car on a motorway, unless signs say otherwise?",options:["60mph","70mph","80mph","No limit applies"],correct:1,explain:"70mph is the national limit for cars on motorways unless signed differently."},
@@ -587,10 +678,20 @@ questions:[
 ]},
 {id:"rules-of-the-road",name:"Rules of the Road",
 notes:[
-"At a roundabout, give way to traffic already on it, approaching from your right, unless signs or markings say otherwise. Signal your exit as you pass the exit before the one you want.",
-"You must not park within 10 metres of a junction (unless markings show a different distance), on a pedestrian crossing or its approach markings, or where it would block access such as a driveway.",
-"A solid white line along the centre of the road means you must not cross or straddle it, except in specific permitted situations such as entering a property or passing a stationary vehicle.",
-"A U-turn should only be made where you have a clear view in both directions and it won't inconvenience or endanger other road users — never on a motorway."
+"At a roundabout, give way to traffic already on it, approaching from your right, unless signs or markings show otherwise; signal your exit as you pass the exit before the one you want.",
+"You must not park within 10 metres of a junction (unless there are road markings showing a different distance), on a pedestrian crossing or its approach markings, or where it would block access such as a driveway.",
+"A solid white line in the centre of the road means you must not cross or straddle it, except for in permitted situations like entering a property or passing a stationary vehicle.",
+"U-turns must only be made where you can see clearly in both directions and it won't inconvenience or endanger other road users — never on a motorway.",
+"National speed limits for cars unless signed otherwise: 30mph in built-up areas, 60mph on single carriageways, 70mph on dual carriageways and motorways.",
+"Double yellow lines mean no waiting at any time unless a nearby sign states otherwise; a single yellow line restricts waiting only during the times shown on a plate.",
+"Box junctions (yellow crisscross lines): don't enter unless your exit is clear, or you're turning right and are only prevented by oncoming traffic.",
+"Mini-roundabouts follow exactly the same priority rules as full-size roundabouts, even though the markings are flat on the road.",
+"Give way to trams at all times — they run on fixed rails and cannot steer around you.",
+"The horn must not be sounded in a built-up area between 11.30pm and 7am, except to warn of danger."
+],
+links:[
+{label:"Highway Code: Using the road (159–203)",url:"https://www.gov.uk/guidance/the-highway-code/using-the-road-159-to-203"},
+{label:"Highway Code: Waiting and parking (238–252)",url:"https://www.gov.uk/guidance/the-highway-code/waiting-and-parking-238-to-252"}
 ],
 questions:[
 {q:"At a roundabout with no signs showing otherwise, who do you give way to?",options:["Traffic approaching from your left","Traffic already on the roundabout, from your right","Whoever arrives first","Larger vehicles always have priority"],correct:1,explain:"The default rule is to give way to traffic already circulating, approaching from the right."},
@@ -638,8 +739,17 @@ questions:[
 notes:[
 "Shape and colour carry meaning at a glance: circular signs give orders (blue = must do, red circle = prohibition), triangular signs warn of hazards ahead, and rectangular signs give information or directions.",
 "The traffic light sequence is red, red and amber together, green, amber, then back to red. Red and amber together means \"get ready, but don't go yet.\"",
-"A single flashing amber light at a zebra crossing (Belisha beacon) means give way to any pedestrian already on, or about to use, the crossing.",
-"Advance direction signs are blue on motorways, green on primary routes, and white with a black border on local, non-primary routes."
+"A single flashing amber light at a pedestrian crossing (Belisha beacon/zebra) means give way to any pedestrian already on the crossing.",
+"Advance direction signs on motorways are blue; on primary routes they're green; on local, non-primary routes they're white with black borders; brown signs point to tourist attractions.",
+"An octagonal STOP sign with a solid stop line means come to a complete stop every time, unlike a give-way triangle on the road, which only means give priority if needed.",
+"Road markings explain themselves by border: a hatched area bordered by a solid white line must never be entered; the same markings bordered by a broken line may be crossed if it's safe and necessary.",
+"A red X displayed above a motorway lane means that lane is closed and must not be used; a mandatory (red-circled) speed limit on a matrix sign is legally enforceable even if the road looks clear.",
+"Blue rectangular signs with a cycle symbol mark a signed cycle route; a cycle lane bordered by a solid white line, with times shown, is mandatory during those hours — a broken line marks an advisory lane only.",
+"A triangular warning sign with a plain exclamation mark warns of a general danger that has no dedicated symbol of its own, often explained on a small plate beneath it."
+],
+links:[
+{label:"Highway Code: Traffic signs",url:"https://www.gov.uk/guidance/the-highway-code/traffic-signs"},
+{label:"Highway Code: Signals to other road users",url:"https://www.gov.uk/guidance/the-highway-code/signals-to-other-road-users"}
 ],
 questions:[
 {q:"What does a triangular road sign generally indicate?",options:["A mandatory instruction","A warning of a hazard ahead","Direction information only","A prohibition"],correct:1,explain:"Triangles are the Highway Code's standard shape for warning signs."},
@@ -686,10 +796,22 @@ questions:[
 ]},
 {id:"documents",name:"Documents",
 notes:[
-"A vehicle normally needs its first MOT test three years after first registration, renewed annually afterwards (different rules apply in Northern Ireland).",
-"The legal minimum level of insurance is third-party cover. Third-party, fire and theft adds cover for your own vehicle against fire or theft; fully comprehensive adds cover for most other damage to your own car too.",
-"You must tell the DVLA if your health, eyesight, name or address changes in ways that affect your licence.",
-"Vehicle tax must be kept current even if the car is rarely used — if it's off the road and untaxed, it should be declared SORN (Statutory Off Road Notification)."
+"Your vehicle normally needs an MOT test certificate from three years after first registration (one year for most vehicles in Northern Ireland), renewed annually afterwards.",
+"The legal minimum level of insurance is third-party cover; third-party, fire and theft adds cover for your own vehicle against fire or theft; fully comprehensive covers your own vehicle for most other damage too.",
+"You must tell the DVLA if your health, eyesight, name or address changes in ways that affect your licence, and keep your driving licence details up to date.",
+"Vehicle tax (often called road tax or VED) must be kept current even if the vehicle is rarely used — if it's off the road and not taxed, it should be declared SORN.",
+"You can apply for a provisional licence from 15 years 9 months and start driving a car from 17; a supervising driver must be 21 or over and have held a full licence for that category for at least 3 years, and L plates must be shown front and rear.",
+"Under the New Drivers Act, getting 6 or more penalty points within 2 years of passing your test revokes your licence — you then have to reapply as a learner and retake both tests.",
+"From age 70, a driving licence must be renewed every 3 years instead of the usual 10-year photocard cycle.",
+"When you sell a car privately, tell DVLA straight away and give the buyer the green \"new keeper\" slip from the V5C registration certificate (the log book).",
+"\"Fronting\" — naming someone else as the main driver purely to get a cheaper premium — is insurance fraud and can invalidate the policy.",
+"The eyesight standard for driving requires you to read a number plate from 20 metres; you must tell DVLA about any condition affecting both eyes, or your remaining eye if you have only one."
+],
+links:[
+{label:"Highway Code: Annex 3 — Motor vehicle documentation and learner driver requirements",url:"https://www.gov.uk/guidance/the-highway-code/annex-3-motor-vehicle-documentation-and-learner-driver-requirements"},
+{label:"GOV.UK: Vehicle tax",url:"https://www.gov.uk/vehicle-tax"},
+{label:"GOV.UK: Getting an MOT",url:"https://www.gov.uk/getting-an-mot"},
+{label:"GOV.UK: Driving eyesight rules",url:"https://www.gov.uk/driving-eyesight-rules"}
 ],
 questions:[
 {q:"How old must a vehicle normally be before it needs its first MOT test in Great Britain?",options:["1 year","3 years","5 years","No MOT is ever required"],correct:1,explain:"Most vehicles need their first MOT three years after first registration."},
@@ -735,10 +857,20 @@ questions:[
 ]},
 {id:"incidents",name:"Incidents, Accidents and Emergencies",
 notes:[
-"At the scene of a collision: stop, switch on hazard lights, check for danger such as fire, fuel or other traffic before approaching, and only move casualties if leaving them risks further injury.",
-"A warning triangle placed well back on the same side of the road can alert traffic on an ordinary road — never walk onto a motorway to place one, and never use one on the motorway itself.",
-"You must stop if you're involved in a collision that injures a person or animal (other than yourself) or damages another vehicle or property, and give your details; report it to the police within 24 hours if you can't.",
-"In a vehicle fire, get everyone out and well away before calling the emergency services — don't open the bonnet, which can feed the fire more oxygen."
+"At the scene of a collision: stop, switch on hazard lights, check for danger (fire, fuel, other traffic) before approaching, and only move casualties if there's a risk of further injury where they are.",
+"If you must warn other traffic of an obstruction, a warning triangle placed well back on the same side is useful on an ordinary road — but never walk onto a motorway to place one, and never use one on the motorway itself.",
+"In the UK you must stop if you're involved in a collision that injures a person or animal (other than yourself), or damages another vehicle or property, and give your details; if you can't, report it to the police within 24 hours.",
+"In a vehicle fire, get everyone out and well away before calling the emergency services — don't open the bonnet, which can feed a fire more oxygen.",
+"Call 999 or 112 in a genuine emergency, and give your exact location first — motorway marker posts point the way to the nearest emergency telephone and can help pinpoint where you are.",
+"Basic first aid priorities: check that the airway is clear and the casualty is breathing; don't move someone with a suspected back or neck injury unless leaving them is more dangerous; keep a shocked casualty warm and calm, without food or drink.",
+"Don't remove a motorcyclist's helmet after a crash unless it's actually stopping you checking their airway and breathing.",
+"If a tyre bursts while driving, hold the steering wheel firmly and ease off the accelerator gradually — don't brake hard or swerve.",
+"A diesel or fuel spill makes the road surface especially slippery for motorcyclists — warn other traffic and report it rather than trying to clean it up yourself.",
+"After a collision involving an electric or hybrid vehicle, stay well clear — a damaged high-voltage battery can carry a risk of electric shock or fire."
+],
+links:[
+{label:"Highway Code: Breakdowns and incidents (274–287)",url:"https://www.gov.uk/guidance/the-highway-code/breakdowns-and-incidents-274-to-287"},
+{label:"Highway Code: Annex 7 — First aid on the road",url:"https://www.gov.uk/guidance/the-highway-code/annex-7-first-aid-on-the-road"}
 ],
 questions:[
 {q:"You're first on the scene of a collision. What's your first priority?",options:["Move the casualties immediately","Check for danger — such as fire, fuel or oncoming traffic — before approaching","Take photos for insurance","Move the vehicles out of the way first"],correct:1,explain:"Making the scene safe for yourself and others comes before anything else."},
@@ -784,10 +916,19 @@ questions:[
 ]},
 {id:"vehicle-loading",name:"Vehicle Loading",
 notes:[
-"An overloaded car handles poorly — stopping distances increase and the vehicle can become harder to control, especially at speed or on bends.",
-"A load should be secured so it can't move or fall from the vehicle; a roof rack load changes the car's height, width and handling, especially in crosswinds.",
-"When towing a trailer or caravan, respect the combination's length, width and weight limits, and fit a number plate on the trailer matching the towing vehicle's.",
-"Children should travel in a restraint suitable for their height or weight, and it's the driver's responsibility to ensure passengers under 14 are properly secured."
+"An overloaded car handles poorly — stopping distances increase, and the vehicle may become harder to control, especially at speed or in bends.",
+"A load should be secured so it can't move or fall from the vehicle; carrying something on a roof rack changes the car's height, overall width and handling, especially in crosswinds.",
+"When towing a trailer or caravan, the overall combination length, width and weight limits must be respected, and a properly fitted number plate matching the towing vehicle's is required on the trailer.",
+"Children should travel in a suitable child restraint appropriate to their height or weight, and it's the driver's responsibility to ensure passengers under 14 wear a seatbelt or appropriate restraint.",
+"Trailers over about 750kg maximum gross weight must have their own brakes, and a breakaway cable should automatically apply them if the trailer detaches from the car.",
+"The maximum width for a trailer towed by a car is 2.55 metres; towing speed limits are 60mph on motorways and dual carriageways, and 50mph on single carriageways.",
+"Load heavy items low down and towards the front of the boot to keep the centre of gravity low, and spread roof-rack weight evenly from side to side.",
+"Check your vehicle's maximum permitted gross weight (on the manufacturer's plate) and each tyre's load rating before loading up or hitching a trailer.",
+"A badly set caravan noseweight, or an unevenly loaded trailer, is a common cause of snaking or jackknifing, especially at higher speed.",
+"Towing a larger trailer or caravan may need category BE added to your licence, depending on when you passed your test and the combined weight being towed."
+],
+links:[
+{label:"Highway Code: Rules for drivers and motorcyclists — towing and loading (89–102)",url:"https://www.gov.uk/guidance/the-highway-code/rules-for-drivers-and-motorcyclists-89-to-102"}
 ],
 questions:[
 {q:"What is the main risk of an overloaded vehicle?",options:["Improved fuel economy","Longer stopping distances and reduced control","Better grip in corners","No real difference to handling"],correct:1,explain:"Extra weight changes how the car brakes, corners and responds generally."},
@@ -1007,6 +1148,12 @@ function renderStudyDetail(topicId){
   html += '<ul class="notes-list">';
   t.notes.forEach(n=> html += '<li>'+n+'</li>');
   html += '</ul>';
+  if(t.links && t.links.length){
+    html += '<div class="links-head">Official sources to read in full</div>';
+    html += '<ul class="links-list">';
+    t.links.forEach(l=> html += '<li><a href="'+l.url+'" target="_blank" rel="noopener">'+l.label+'</a></li>');
+    html += '</ul>';
+  }
   html += '</div>';
   viewEl.innerHTML = html;
   wireActions();
