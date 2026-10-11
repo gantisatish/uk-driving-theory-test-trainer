@@ -7,7 +7,7 @@ No installation, no account, no server — it's a single HTML file that runs ent
 ## Features
 
 - **Study notes** for all 14 DVSA topics (Alertness, Attitude, Safety and Your Vehicle, Safety Margins, Hazard Awareness, Vulnerable Road Users, Other Types of Vehicle, Vehicle Handling, Motorway Rules, Rules of the Road, Road and Traffic Signs, Documents, Incidents/Accidents/Emergencies, Vehicle Loading)
-- **Topic practice** — untimed quizzes with instant feedback and explanations for every answer
+- **Topic practice** — over 560 practice questions across all 14 topics, untimed, with instant feedback and explanations for every answer
 - **Mock exam** — 50 random questions, a 57-minute countdown, a question navigator with flagging, and a pass mark of 43/50, matching the real test format
 - **Progress tracking** — your scores and topic mastery are saved automatically in your browser (`localStorage`), so you can pick up where you left off next time
 - Works on desktop and mobile browsers, light and dark mode
