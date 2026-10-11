@@ -1114,6 +1114,12 @@ function renderDashboard(){
     html += '</div>';
   }
 
+  html += '<div class="section-head" style="margin-top:28px;"><h2>Want more practice?</h2></div>';
+  html += '<div class="panel">';
+  html += '<p style="margin:0 0 10px;">This app can\'t replicate the real hazard perception video clips. For that — and for an official free mock exam alongside this one — use the DVSA\'s own practice test:</p>';
+  html += '<ul class="links-list"><li><a href="https://www.gov.uk/take-practice-theory-test" target="_blank" rel="noopener">GOV.UK: free official practice theory test (multiple choice + hazard perception clips)</a></li><li><a href="https://www.gov.uk/theory-test/revision-and-practice" target="_blank" rel="noopener">GOV.UK: theory test revision and practice options</a></li></ul>';
+  html += '</div>';
+
   viewEl.innerHTML = html;
   wireActions();
 }
@@ -1321,6 +1327,7 @@ function renderExam(){
     let html = '<div class="section-head"><h2>Mock exam</h2><span class="sub">Matches the real format</span></div>';
     html += '<div class="panel">';
     html += '<p>50 random questions drawn from all 14 topics, 57 minutes on the clock, pass mark 43/50 — the same structure as the real DVSA car theory test.</p>';
+    html += '<p style="color:var(--ink-soft);font-size:.88rem;">This covers the multiple-choice half only. For hazard perception practice and another free mock exam, try the <a href="https://www.gov.uk/take-practice-theory-test" target="_blank" rel="noopener" style="color:var(--blue);font-weight:600;">official DVSA practice test</a>.</p>';
     html += '<div class="cta-row"><button class="btn primary" data-action="start-exam">Start mock exam</button></div>';
     html += '</div>';
     viewEl.innerHTML = html;
