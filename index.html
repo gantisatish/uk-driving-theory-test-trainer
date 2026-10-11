@@ -1114,10 +1114,19 @@ function renderDashboard(){
     html += '</div>';
   }
 
-  html += '<div class="section-head" style="margin-top:28px;"><h2>Want more practice?</h2></div>';
+  html += '<div class="section-head" style="margin-top:28px;"><h2>Hazard perception practice</h2></div>';
   html += '<div class="panel">';
-  html += '<p style="margin:0 0 10px;">This app can\'t replicate the real hazard perception video clips. For that — and for an official free mock exam alongside this one — use the DVSA\'s own practice test:</p>';
-  html += '<ul class="links-list"><li><a href="https://www.gov.uk/take-practice-theory-test" target="_blank" rel="noopener">GOV.UK: free official practice theory test (multiple choice + hazard perception clips)</a></li><li><a href="https://www.gov.uk/theory-test/revision-and-practice" target="_blank" rel="noopener">GOV.UK: theory test revision and practice options</a></li></ul>';
+  html += '<p style="margin:0 0 10px;">The real theory test has two halves: the 50-question multiple choice covered by this app, and a separate hazard perception video test (14 clips, click when you spot a developing hazard, pass mark 44/75). We can\'t host or embed real test clips here, so use these instead:</p>';
+  html += '<ul class="links-list">';
+  html += '<li><a href="https://www.gov.uk/take-practice-theory-test" target="_blank" rel="noopener">GOV.UK — official free practice test, including 3 real hazard perception clips</a> <span class="status-pill pill-high" style="margin-left:6px;">Official</span></li>';
+  html += '<li><a href="https://www.youtube.com/channel/UCk5wfucfnHIFG3UwtMJvsQA" target="_blank" rel="noopener">FM Driving School (YouTube) — dash-cam clips used to practise spotting developing hazards</a> <span class="status-pill pill-mid" style="margin-left:6px;">Unofficial</span></li>';
+  html += '</ul>';
+  html += '<p style="margin:10px 0 0;font-size:.82rem;color:var(--ink-soft);">The YouTube channel is independent, third-party content — not real DVSA clips and not reviewed by us. Worth previewing yourself before relying on it.</p>';
+  html += '</div>';
+
+  html += '<div class="section-head" style="margin-top:24px;"><h2>More multiple-choice practice</h2></div>';
+  html += '<div class="panel">';
+  html += '<ul class="links-list"><li><a href="https://www.gov.uk/theory-test/revision-and-practice" target="_blank" rel="noopener">GOV.UK — theory test revision and practice options</a></li></ul>';
   html += '</div>';
 
   viewEl.innerHTML = html;
